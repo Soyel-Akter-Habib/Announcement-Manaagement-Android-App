@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="8dp"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="8dp"
+
+    app:cardCornerRadius="20dp"
+    app:cardElevation="4dp"
+
+    >
+
+
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="15dp"
+
+    android:layout_marginTop="20dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#1D707A"
+            android:padding="10dp">
+
+
+
+            <TextView
+                android:id="@+id/title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/buenard"
+                android:text="Co-curricular/Sport/Cultural"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/content1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/buenard"
+                android:textStyle="bold"
+                android:text="Career Guidance session on Pathway selection and oppurtunities by - Aman Haldora\n"
+                android:textColor="#000"
+
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/buenard"
+                android:text="\nDear Students\n \n Centre for Professional Enhancement and School of law
+is going to conduct Career pathway orientation session for students of the School of Law expected to graduate in the year
+                2026 - Session2 . Students will be guided towards opportunities available in career pathway applicable for their particular program. \n The Main objectives of the event are: \n
+1. To Update About policies. \n2. To set a goal for a particular career profile. \n3. To identify required skill sets and planning for identified career profile.
+\n \n Target audience : The students of school of Lae will participate in the session. \n \n\n Date: 25th April, 2023 \n\n\n Time: 02:00 PM - 04:00 PM
+\n\n\n Venue: Block 20-403 \n\n\n Resource Person: \n Mr. Sunil Kumar\nDr.Amandeep Singh \nMr.Guneet Paul Singh\n
+\n\n Uploaded By : \nOffice of HOD\nCentre for Professional Enhancement"
+
+
+
+
+                android:layout_below="@id/content1"
+                android:textColor="#000"
+                android:id="@+id/t3"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="10dp"
+
+
+                />
+
+
+
+        </RelativeLayout>
+</ScrollView>
+
+</androidx.cardview.widget.CardView>
+
+
+
+</androidx.cardview.widget.CardView>
